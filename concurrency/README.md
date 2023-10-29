@@ -32,7 +32,6 @@
 
 #### Threading Version
 * [🔗 Threading Code](https://github.com/zsu58/python_concurrency/tree/main/concurrency/IO-Bound-Program/io_threading.py)
-* 
 
 #### Asyncio Version
 * [🔗 Asyncio Code](https://github.com/zsu58/python_concurrency/tree/main/concurrency/IO-Bound-Program/io_asyncio.py)
