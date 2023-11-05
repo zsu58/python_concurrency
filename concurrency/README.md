@@ -44,16 +44,20 @@
 ### How to Speed Up a CPU-Bound Program
 
 #### Synchronous Version
-* [🔗 code]()
-
-#### Threading Version
-* [🔗 code]()
-
-#### Asyncio Version
-* [🔗 code]()
+* [🔗 code](https://github.com/zsu58/python_concurrency/tree/main/concurrency/CPU-Bound-Program/cpu_synchronous.py)
 
 #### Multiprocessing Version
-* [🔗 code]()
+* [🔗 code](https://github.com/zsu58/python_concurrency/tree/main/concurrency/CPU-Bound-Program/cpu_multiprocessing.py)
+
+---
+
+### When to Use Concurrency
+* 1) Decide whether a concurrency module is needed
+* 2) Figure out whether the program is I/O-bound or CPU-bound
+  * I/O-bound: Use asyncio when possible, threading when required
+    * critical libraries that have not been ported to take advantage of asyncio
+    * when any task that doesn’t give up control to the event loop will block all of the other tasks
+  * CPU-bound: use multiprocessing, threading and asyncio doesn't help
 
 ---
 
