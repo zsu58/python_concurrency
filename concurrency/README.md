@@ -44,10 +44,10 @@
 ### How to Speed Up a CPU-Bound Program
 
 #### Synchronous Version
-* [🔗 code](https://github.com/zsu58/python_concurrency/tree/main/concurrency/CPU-Bound-Program/cpu_synchronous.py)
+* [🔗 Synchronous Code](https://github.com/zsu58/python_concurrency/tree/main/concurrency/CPU-Bound-Program/cpu_synchronous.py)
 
 #### Multiprocessing Version
-* [🔗 code](https://github.com/zsu58/python_concurrency/tree/main/concurrency/CPU-Bound-Program/cpu_multiprocessing.py)
+* [🔗 Multiprocessing Code](https://github.com/zsu58/python_concurrency/tree/main/concurrency/CPU-Bound-Program/cpu_multiprocessing.py)
 
 ---
 
