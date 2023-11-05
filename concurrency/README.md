@@ -62,6 +62,6 @@
 ---
 
 ### Reference
-* [🔗 python concurrency](https://realpython.com/python-concurrency/)
+* [🔗 Python Concurrency](https://realpython.com/python-concurrency/)
 
 ---

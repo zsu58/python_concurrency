@@ -1,4 +1,4 @@
-## python_concurrency
+## Python Concurrency
 
 ### Requisites
 ```bash
@@ -8,7 +8,7 @@ pip3 install -y request aiohttp
 ---
 
 ### Reference
-* [🔗 python concurrency](https://realpython.com/python-concurrency/)
-* [🔗 python threading](https://realpython.com/intro-to-python-threading/)
+* [🔗 Python Concurrency](https://realpython.com/python-concurrency/)
+* [🔗 Python Threading](https://realpython.com/intro-to-python-threading/)
 
 ---
