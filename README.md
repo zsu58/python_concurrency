@@ -2,7 +2,7 @@
 
 ### Requisites
 ```bash
-pip3 install -y request aiohttp
+pip3 install -y request aiohttp aiofiles
 ```
 
 ---
