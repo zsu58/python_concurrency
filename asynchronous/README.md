@@ -89,6 +89,26 @@ python3 rand.py
 
 ---
 
+### Async IO Design Patterns
+#### Chaining Coroutines
+* A key feature of coroutines is that they can be chained together, allowing break programs into smaller, manageable, recyclable coroutines
+
+```bash
+python3 chain.py
+```
+
+#### Using a Queue
+* Using a queue class provided in `asyncio package`
+* In this structure a number of producers which are not associated with each other, can add multiple items to the queue at random, unannounced times
+* Consumers pull items from the queue as they show up, greedily and without waiting for any other signal
+* There is no chaining of any individual consumer to a producer, meaning that consumers don’t know the number of producers, or even the cumulative number of items that will be added to the queue, in advance.
+* It takes an individual producer or consumer a variable amount of time to put and extract items from the queue, respectively. 
+* The queue serves as a throughput that can communicate with the producers and consumers without them talking to each other directly.
+
+```bash
+python3 queue.py -p 2 -c 5
+```
+
 
 ### Reference
 * [🔗 Python Async-IO](https://realpython.com/async-io-python/)
